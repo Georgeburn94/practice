@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: red;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+}
+
+li {
+    text-align: center;
+    padding: 2rem;
+}
+
+li:hover a {
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+li:hover {
+    opacity: 0.5;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 2% 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.stream-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stream-box > * {
+    flex: 1 1 0;
+    width: 25%;
+    margin: 3%;
+}
